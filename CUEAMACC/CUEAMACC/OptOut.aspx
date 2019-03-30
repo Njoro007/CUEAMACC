@@ -1,8 +1,8 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="OptOut.aspx.cs" Inherits="RegistrationEmail.OptOut" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="OptOut.aspx.cs" Inherits="CUEAMACC.OptOut" %>
 
 <!DOCTYPE html>
 
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>CUEAMACC</title>
     <meta charset="utf-8" />
@@ -116,6 +116,4 @@
         window.onorientationchange = function () { document.body.scrollTop = 0; }
     </script>
 </body>
-</html>
-
 </html>

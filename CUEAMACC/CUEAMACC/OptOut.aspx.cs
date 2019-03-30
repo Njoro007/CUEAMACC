@@ -6,7 +6,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace RegistrationEmail
+namespace CUEAMACC
 {
     public partial class OptOut : System.Web.UI.Page
     {
@@ -15,11 +15,7 @@ namespace RegistrationEmail
         MySql.Data.MySqlClient.MySqlDataReader MyDr;
 
         string strQry = "";
-        string DT1, email=null;
-        protected void Page_Load(object sender, EventArgs e)
-        {
-
-        }
+        string DT1, email = null;
 
         protected void btnOptOut_Click(object sender, EventArgs e)
         {
@@ -30,7 +26,7 @@ namespace RegistrationEmail
             MyDB.Open();
 
             DT1 = DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss");
-            strQry = "UPDATE members SET maillist = '0' WHERE email = '"+ email  +"'";
+            strQry = "UPDATE members SET maillist = '0' WHERE email = '" + email + "'";
 
             if (email != "")
             {
@@ -63,6 +59,11 @@ namespace RegistrationEmail
             {
                 lblmsg.Text = "Whoops! Please input your email address!";
             }
+        }
+
+        protected void Page_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

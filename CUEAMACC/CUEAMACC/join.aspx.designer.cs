@@ -7,10 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RegistrationEmail {
+namespace CUEAMACC {
     
     
-    public partial class About {
+    public partial class join {
         
         /// <summary>
         /// btnJoin control.

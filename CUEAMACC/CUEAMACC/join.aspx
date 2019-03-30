@@ -1,12 +1,8 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="join.aspx.cs" Inherits="RegistrationEmail.About" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="join.aspx.cs" Inherits="CUEAMACC.join" %>
 
-<!DOCTYPE HTML>
-<!--
-	Aerial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>CUEAMACC</title>
     <meta charset="utf-8" />

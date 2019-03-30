@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RegistrationEmail {
+namespace CUEAMACC {
     
     
     public partial class OptOut {

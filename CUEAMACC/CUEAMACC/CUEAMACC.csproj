@@ -160,7 +160,6 @@
     <Content Include="js\vendors\swiper.min.js" />
     <Content Include="learn.html" />
     <Content Include="OptOut.aspx" />
-    <Content Include="OptOut.csproj" />
     <Content Include="projects.html" />
     <Content Include="service-worker.js" />
     <Content Include="StyleSheet.css" />
@@ -201,6 +200,7 @@
     <Content Include="manifest.json" />
     <None Include="packages.config" />
     <Content Include="readme.md" />
+    <None Include="Properties\PublishProfiles\cueamacc - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
