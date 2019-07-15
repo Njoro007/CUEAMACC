@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="MyConn-Web.config Connection String" description="MyConn Connection String used in web.config by the application to access the database." defaultValue="Server=94.23.61.175;port=3306;Database=dsc;user ID=runju;password=Njoroge49; Allow User Variables=True;convert zero datetime=True; SslMode=none " tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="F:\\Github\\CUEAMACC\\CUEAMACC\\CUEAMACC\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MyConn']/@connectionString" />
+  </parameter>
+</parameters>
